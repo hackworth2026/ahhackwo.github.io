@@ -198,10 +198,13 @@
                         <h1 class="Frag2">Fragance Longevity</h1>
                         <div id="event-section">
                             <h3>Add Event</h3>
-                            <input type="date" id="eventDate">
+                            <label for="eventDate">Event Date:</label>
+                            <input type="date" id="eventDate"><br>
+                            <label for="evenTitle">Event Title:</label>
                             <input type="text"
                                 id="eventTitle"
-                                placeholder="Event Title">
+                                placeholder="Event Title"><br>
+                             <label for="evenDescription"> Event Description:</label>   
                             <input type="text"
                                 id="eventDescription"
                                 placeholder="Event Description">
@@ -211,7 +214,6 @@
                         </div>
                         <div id="reminder-section">
                             <h3>Reminders</h3>
-                            <!-- List to display reminders -->
                             <ul id="reminderList">
                                 <li data-event-id="1">
                                     <strong>Event Title</strong>
