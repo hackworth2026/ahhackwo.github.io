@@ -134,8 +134,8 @@ body {
 
 .button-container-calendar button {
 	cursor: pointer;
-	background: rgb(0, 0, 0);
-	color: #000000;
+	background: rgb(128, 128, 128);
+	color: #ffffff;
 	border: 1px solid rgb(0, 0, 0);
 	border-radius: 4px;
 	padding: 5px 10px;
